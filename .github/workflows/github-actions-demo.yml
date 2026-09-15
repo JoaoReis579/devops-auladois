@@ -9,5 +9,5 @@ jobs:
               run: echo "The job was automatically triggered by a ${{github.event_name}} event."
             - name: echo "Segundo STEP do fluxo"
               run: echo "14/09/2026."
-               - name: echo "Terceiro STEP do fluxo"
+            - name: echo "Terceiro STEP do fluxo"
               run: echo "A execução do fluxo foi concluída com sucesso na data 14/09/2026."
