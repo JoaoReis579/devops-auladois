@@ -8,4 +8,4 @@ jobs:
             - name: echo "The job was automatically triggered by a ${{github.event_name}} event."
               run: echo "The job was automatically triggered by a ${{github.event_name}} event."
             - name: echo "data da execução"
-              run: echo "data da execução: ${{github.run_date}}"
+              run: echo "data da execução ${{github.run_date}} event."
