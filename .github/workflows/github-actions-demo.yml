@@ -5,9 +5,9 @@ jobs:
     Explore-GitHub-Actions:
         runs-on: ubuntu-latest
         steps:
-            - name: echo "Primeiro STEP do fluxo"
+            - name: Primeiro STEP do fluxo
               run: echo "The job was automatically triggered by a ${{github.event_name}} event."
-            - name: echo "Segundo STEP do fluxo"
+            - name: Segundo STEP do fluxo
               run: echo "14/09/2026."
-            - name: echo "Terceiro STEP do fluxo"
+            - name: Terceiro STEP do fluxo
               run: echo "A execução do fluxo foi concluída com sucesso na data 14/09/2026."
